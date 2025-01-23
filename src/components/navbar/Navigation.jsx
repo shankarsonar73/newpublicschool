@@ -255,6 +255,7 @@ const DesktopNavigation = () => {
 
 const Navigation = () => {
   const isMobile = useIsMobile();
+  
 
   return (
     <nav className="bg-white shadow-sm relative z-30 border border-zinc-100">
