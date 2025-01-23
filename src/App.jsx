@@ -14,11 +14,13 @@ import VideoFeature from "./components/VideoFeature";
 import MeetUp from "./components/MeetUp";
 import ExploreFuture from "./components/ExploreFuture";
 import TestimonialSection from "./components/TestimonialSection";
+import About from "./components/About";
 const App = () => {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Landingpage />} />
+        <Route path="/about" element={<About />} />
         {/* <Route path="/navbar" element={<NavBar1/>}/>
         <Route path="/navbar2" element={<Navbar2/>}/>
         <Route path="/navbar3" element={<Navigation/>}/>

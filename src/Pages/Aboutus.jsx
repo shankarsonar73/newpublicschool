@@ -1,4 +1,17 @@
 import React from 'react'
+
+function Aboutus() {
+  return (
+    <div>
+      
+    </div>
+  )
+}
+
+export default Aboutus
+
+
+import React from 'react'
 import CardSection from '../components/CardSection'
 import ExploreFuture from '../components/ExploreFuture'
 import ImageSliderWithMarquee from '../components/ImageSliderWithMarquee'
