@@ -13,7 +13,7 @@ const menuItems = [
     color: 'text-green-800 hover:text-yellow-600'
   },
   {
-    title: 'ACADEMIC',
+    title: 'About us',
     link: '/about',
     color: 'text-green-800 hover:text-yellow-600'
   },
