@@ -14,7 +14,7 @@ const menuItems = [
   },
   {
     title: 'ABOUT US',
-    link: '/aboutus',
+    link: '/about',
     color: 'text-green-800 hover:text-yellow-600'
   },
   {
