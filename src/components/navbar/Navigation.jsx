@@ -218,7 +218,7 @@ const DesktopNavigation = () => {
                   </button>
                   <div
                     className={`absolute left-0 mt-0 w-60 bg-white shadow-lg rounded-b-lg transition-all duration-700 ${
-                      activeDropdown === index ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible translate-y-3'
+                      activeDropdown === index ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible translate-y-2'
                     }`}
                     onMouseEnter={() => handleDropdownHover(index)}
                     onMouseLeave={handleDropdownLeave}
@@ -229,7 +229,7 @@ const DesktopNavigation = () => {
                           <a
                             href={dropItem.link}
                            // Example: Only left and right inner borders
-                            className="block px-4 py-2 bg-green-800 text-white transition-colors border-opacity-60 border-y border-yellow-500 text-normal hover:text-yellow-600"                          >
+                            className="block px-4 py-2 bg-green-900 text-white transition-colors border-opacity-60 border-y border-yellow-500 text-normal hover:text-yellow-600"                          >
                             {dropItem.title}
                           </a>
                         </li>
