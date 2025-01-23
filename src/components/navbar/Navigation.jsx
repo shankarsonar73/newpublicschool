@@ -13,15 +13,11 @@ const menuItems = [
     color: 'text-green-800 hover:text-yellow-600'
   },
   {
-    title: 'ABOUT US',
+    title: 'ACADEMIC',
     link: '/about',
-    // dropdownItems: [
-    //   { title: 'Trust Management', link: '#' },
-    //   { title: "President's Message", link: '#' },
-    //   { title: "Secretary's Message", link: '#' },
-    //   { title: "Principal's Message", link: '#' }
-    // ]
+    color: 'text-green-800 hover:text-yellow-600'
   },
+
   {
     title: 'INFRASTRUCTURE',
     link: '#',
