@@ -8,6 +8,11 @@ const menuItems = [
     color: 'text-green-800 hover:text-yellow-600'
   },
   {
+    title: 'ACADEMIC',
+    link: '/activity',
+    color: 'text-green-800 hover:text-yellow-600'
+  },
+  {
     title: 'ABOUT US',
     link: '/about',
     // dropdownItems: [
@@ -26,16 +31,16 @@ const menuItems = [
       { title: 'Library', link: '#' }
     ]
   },
-  { title: 'ACADEMIC', link: '#' ,
 
+  // { title: 'ACADEMIC', link: '#activity' ,
 
-    dropdownItems: [
-      { title: 'Trust Management', link: '#' },
-      { title: "President's Message", link: '#' },
-      { title: "Secretary's Message", link: '#' },
-      { title: "Principal's Message", link: '#' }
-    ]
-  },
+  //   dropdownItems: [
+  //     { title: 'Trust Management', link: '#' },
+  //     { title: "President's Message", link: '#' },
+  //     { title: "Secretary's Message", link: '#' },
+  //     { title: "Principal's Message", link: '#' }
+  //   ]
+  // },
   { title: 'ADMISSION', link: '#',
     dropdownItems: [
       { title: 'Trust Management', link: '#' },

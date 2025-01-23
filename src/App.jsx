@@ -15,24 +15,14 @@ import MeetUp from "./components/MeetUp";
 import ExploreFuture from "./components/ExploreFuture";
 import TestimonialSection from "./components/TestimonialSection";
 import About from "./components/About";
+import Activity from "./Pages/Activity";
 const App = () => {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Landingpage />} />
         <Route path="/about" element={<About />} />
-        {/* <Route path="/navbar" element={<NavBar1/>}/>
-        <Route path="/navbar2" element={<Navbar2/>}/>
-        <Route path="/navbar3" element={<Navigation/>}/>
-        <Route path="/ImageSliderWithMarquee" element={<ImageSliderWithMarquee/>}/>
-        <Route path="/ServiceGrid" element={<ServiceGrid/>}/>
-        <Route path="/WelcomeSection" element={<WelcomeSection/>}/>
-        <Route path="/CardSection" element={<CardSection/>}/>
-
-        <Route path="/VideoFeature" element ={<VideoFeature/>}/>
-        <Route path ="/MeetUp" element={<MeetUp/>}/>
-        <Route path="/ExploreFuture" element={<ExploreFuture/>}/>
-        <Route path="/TestimonialSection" element={<TestimonialSection/>}/> */}
+        <Route path="/activity" element={<Activity />} />
       </Routes>
     </BrowserRouter>
   );
