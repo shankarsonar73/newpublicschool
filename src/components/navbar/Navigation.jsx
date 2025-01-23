@@ -4,7 +4,7 @@ import { Menu, X } from 'lucide-react';
 const menuItems = [
   {
     title: 'HOME',
-    link: '#',
+    link: '/',
     color: 'text-green-800 hover:text-yellow-600'
   },
   {
