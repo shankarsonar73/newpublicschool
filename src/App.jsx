@@ -16,6 +16,10 @@ import ExploreFuture from "./components/ExploreFuture";
 import TestimonialSection from "./components/TestimonialSection";
 import About from "./components/About";
 import Activity from "./Pages/Activity";
+import Academic1 from "./Academic/Academic1";
+import Academic2 from "./Academic/Academic2";
+import Academic3 from "./Academic/Academic3";
+import Academic4 from "./Academic/Academic4";
 const App = () => {
   return (
     <BrowserRouter>
@@ -23,6 +27,19 @@ const App = () => {
         <Route path="/" element={<Landingpage />} />
         <Route path="/about" element={<About />} />
         <Route path="/activity" element={<Activity />} />
+
+
+
+        {/* Academic */}
+      
+        <Route path="/academic1" element={<Academic1 />} />
+        <Route path="/academic2" element={<Academic2 />} />
+        <Route path="/academic3" element={<Academic3 />} />
+        <Route path="/academic4" element={<Academic4 />} />
+
+
+
+
       </Routes>
     </BrowserRouter>
   );

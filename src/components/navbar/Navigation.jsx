@@ -35,12 +35,13 @@ const menuItems = [
   { title: 'ACADEMIC', link: '#activity' ,
 
     dropdownItems: [
-      { title: 'Trust Management', link: '#' },
-      { title: "President's Message", link: '#' },
-      { title: "Secretary's Message", link: '#' },
-      { title: "Principal's Message", link: '#' }
+      { title: 'Assessments', link: 'academic1' },
+      { title: "Formative Assmt.", link: 'academic2' },
+      { title: "Summative Assmt.", link: 'academic3' },
+      { title: "Question Paper Patern", link: 'academic4' }
     ]
   },
+
   { title: 'ADMISSION', link: '#',
     dropdownItems: [
       { title: 'Trust Management', link: '#' },
