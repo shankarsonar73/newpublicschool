@@ -10,7 +10,7 @@ import Navigation from '../components/navbar/Navigation'
 
 function About() {
   return (
-    <div>
+    <div className='overflow-hidden'>
     <NavBar1/>
     <NavBar2/>
     <Navigation/>

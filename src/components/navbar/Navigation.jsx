@@ -15,9 +15,10 @@ const menuItems = [
   {
     title: 'ABOUT US',
     link: '/about',
+    color: 'text-green-800 hover:text-yellow-600',
     // dropdownItems: [
-    //   { title: 'Trust Management', link: '#' },
-    //   { title: "President's Message", link: '#' },
+    //   { title: 'Trust Management', link: '/' },
+    //   { title: "President's Message", link: '/' },
     //   { title: "Secretary's Message", link: '#' },
     //   { title: "Principal's Message", link: '#' }
     // ]

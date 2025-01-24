@@ -15,22 +15,22 @@ import Footer from '../components/Footer'
 
 function Landingpage() {
   return (
-    <div className='w-full'>
-    <Home/>
-    <NavBar1/>
-    <NavBar2/>
-    <Navigation/>
-    <ImageSliderWithMarquee/>
-    <ServiceGrid />
-    <WelcomeSection />
-    <CardSection/>
-    <VideoFeature/>
-    <MeetUp />
-    <ExploreFuture />
-    <TestimonialSection />
-    <Footer/>
-    
-    {/* <VideoFeature /> */}
+    <div className="overflow-hidden">
+        <Home/>
+        <NavBar1/>
+        <NavBar2/>
+        <Navigation/>
+        <ImageSliderWithMarquee/>
+        <ServiceGrid />
+        <WelcomeSection />
+        <CardSection/>
+        <VideoFeature/>
+        <MeetUp />
+        <ExploreFuture />
+        <TestimonialSection />
+        <Footer/>
+        
+        {/* <VideoFeature /> */}
     
   </div>
   )
