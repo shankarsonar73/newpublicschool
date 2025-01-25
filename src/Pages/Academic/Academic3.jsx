@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import Footer from "../components/Footer";
-import logo from "../assets/ASCA.png";
-import ExploreFuture from "../components/ExploreFuture";
-import NavBar1 from "../components/navbar/NavBar1";
-import NavBar2 from "../components/navbar/NavBar2";
-import Navigation from "../components/navbar/Navigation";
+import Footer from "../../components/Footer";
+import logo from "../../assets/ASCA.png";
+import ExploreFuture from "../../components/ExploreFuture";
+import NavBar1 from "../../components/navbar/NavBar1";
+import NavBar2 from "../../components/navbar/NavBar2";
+import Navigation from "../../components/navbar/Navigation";
 
 function Academic3() {
   const [activeSection, setActiveSection] = useState('classes-i-ii');

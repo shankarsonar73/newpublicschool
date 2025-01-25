@@ -58,14 +58,19 @@ const menuItems = [
       { title: "chemistry", link: '#' }
     ]
    },
-  { title: 'COMPREHENSIVE INFORMATION', link: '#',
-    dropdownItems: [
-      { title: 'Trust Management', link: '#' },
-      { title: "President's Message", link: '#' },
-      { title: "Secretary's Message", link: '#' },
-      { title: "Principal's Message", link: '#' }
-    ]
-   },
+  // { title: 'COMPREHENSIVE INFORMATION', link: '#',
+  //   dropdownItems: [
+  //     { title: 'Trust Management', link: '#' },
+  //     { title: "President's Message", link: '#' },
+  //     { title: "Secretary's Message", link: '#' },
+  //     { title: "Principal's Message", link: '#' }
+  //   ]
+  //  },
+   {
+    title: 'GALLERY',
+    link: '/gallery',
+    color: 'text-green-800 hover:text-yellow-600'
+  },
   { title: 'ONLINE FEES PAYMENT', link: '#',
     dropdownItems: [
       { title: 'Online', link: '#' },
@@ -73,7 +78,8 @@ const menuItems = [
       
     ]
    },
-  { title: 'CONTACT US', link: '#' }
+  { title: 'CONTACT US', link: '#' },
+
 ];
 
 const useIsMobile = () => {

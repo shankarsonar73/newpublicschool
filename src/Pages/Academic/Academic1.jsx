@@ -1,12 +1,12 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
-import Footer from "../components/Footer";
-import logo from "../assets/ASCA.png";
-import ExploreFuture from "../components/ExploreFuture";
-import NavBar1 from "../components/navbar/NavBar1";
-import NavBar2 from "../components/navbar/NavBar2";
-import Navigation from "../components/navbar/Navigation";
+import Footer from "../../components/Footer";
+import logo from "../../assets/ASCA.png";
+import ExploreFuture from "../../components/ExploreFuture";
+import NavBar1 from "../../components/navbar/NavBar1";
+import NavBar2 from "../../components/navbar/NavBar2";
+import Navigation from "../../components/navbar/Navigation";
 
 function Academic1() {
   return (

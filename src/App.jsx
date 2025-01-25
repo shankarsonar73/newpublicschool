@@ -16,10 +16,12 @@ import ExploreFuture from "./components/ExploreFuture";
 import TestimonialSection from "./components/TestimonialSection";
 import About from "./components/About";
 import Activity from "./Pages/Activity";
-import Academic1 from "./Academic/Academic1";
-import Academic2 from "./Academic/Academic2";
-import Academic3 from "./Academic/Academic3";
-import Academic4 from "./Academic/Academic4";
+import Academic1 from "./Pages/Academic/Academic1";
+import Academic2 from "./Pages/Academic/Academic2";
+import Academic3 from "./Pages/Academic/Academic3";
+import Academic4 from "./Pages/Academic/Academic4";
+
+import Gallery from "./Pages/Gallery/Gallery";
 const App = () => {
   return (
     <BrowserRouter>
@@ -27,6 +29,7 @@ const App = () => {
         <Route path="/" element={<Landingpage />} />
         <Route path="/about" element={<About />} />
         <Route path="/activity" element={<Activity />} />
+        <Route path="/gallery" element={<Gallery />} />
 
 
 
