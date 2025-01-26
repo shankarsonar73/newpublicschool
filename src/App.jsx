@@ -21,6 +21,7 @@ import Academic2 from "./Pages/Academic/Academic2";
 import Academic3 from "./Pages/Academic/Academic3";
 import Academic4 from "./Pages/Academic/Academic4";
 import ConKar from "./components/ConKar";
+import Loginregister from "./components/Loginregister";
 
 import Gallery from "./Pages/Gallery/Gallery";
 const App = () => {
@@ -32,6 +33,7 @@ const App = () => {
         <Route path="/activity" element={<Activity />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<ConKar/>} />
+        <Route path="/login" element={<Loginregister/>} />
 
 
 
