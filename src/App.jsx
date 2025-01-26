@@ -20,6 +20,7 @@ import Academic1 from "./Pages/Academic/Academic1";
 import Academic2 from "./Pages/Academic/Academic2";
 import Academic3 from "./Pages/Academic/Academic3";
 import Academic4 from "./Pages/Academic/Academic4";
+import Contactus from "./components/contactus";
 
 import Gallery from "./Pages/Gallery/Gallery";
 const App = () => {
@@ -30,6 +31,7 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/activity" element={<Activity />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/contact" element={<Contactus/>} />
 
 
 

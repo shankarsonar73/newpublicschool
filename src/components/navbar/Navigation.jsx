@@ -78,7 +78,7 @@ const menuItems = [
       
     ]
    },
-  { title: 'CONTACT US', link: '#' },
+  { title: 'CONTACT US', link: '/contact' },
 
 ];
 
