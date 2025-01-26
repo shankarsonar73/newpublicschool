@@ -5,7 +5,7 @@ import NavBar2 from '../components/navbar/NavBar2';
 import Navigation from '../components/navbar/Navigation';
 import Footer from './Footer';
 
-function ContactUs() {
+function ConKar() {
   const [hoveredLocation, setHoveredLocation] = useState(null);
 
   const locations = [
@@ -98,4 +98,4 @@ function ContactUs() {
   );
 }
 
-export default ContactUs;
+export default ConKar;
