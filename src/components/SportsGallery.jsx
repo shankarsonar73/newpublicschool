@@ -4,9 +4,10 @@ import React from 'react';
 import cricket from '../assets/sports/cricket.jpg';
 import football from '../assets/sports/football.jpg';
 import basketball from '../assets/sports/basketball.jpg';
-import volleyball from '../assets/sports/volleyball.jpg';
-import tennis from '../assets/sports/tennis.jpg';
+import volleyball from '../assets/sports/race.jpg';
+import tennis from '../assets/sports/about-us1.jpg';
 import athletics from '../assets/sports/athletics.jpg';
+
 
 const SportsGallery = () => {
   const sportsData = [
@@ -25,20 +26,20 @@ const SportsGallery = () => {
     {
       id: 3,
       image: basketball,
-      title: 'Basketball',
-      description: 'Enhancing coordination and athletic skills through basketball.'
+      title: 'VolleyBall',
+      description: 'Enhancing coordination and athletic skills through VolleyBall.'
     },
     {
       id: 4,
       image: volleyball,
-      title: 'Volleyball',
-      description: 'Building communication and collaborative skills in volleyball.'
-    },
+      title: 'Race',
+      description: 'Fun Races Keeping in mind'
+        },
     {
       id: 5,
       image: tennis,
-      title: 'Tennis',
-      description: 'Promoting individual skill and mental discipline through tennis.'
+     title: "Ball and Bucket Game",
+description: "Game involving players trying to throw or transfer balls into circular targets/buckets on the field. Develops skills like hand-eye coordination, accuracy, and teamwork."
     },
     {
       id: 6,

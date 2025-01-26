@@ -79,7 +79,7 @@ const menuItems = [
     ]
    },
   { title: 'CONTACT US', link: '/contact' },
-  { title: 'Login', link: '/login' },
+  { title: 'LOGIN', link: '/login' },
 
 ];
 
