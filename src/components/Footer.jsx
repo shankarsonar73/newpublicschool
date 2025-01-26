@@ -119,30 +119,31 @@ function Footer() {
                <div className='mt-3 flex items-center gap-4'>
                    <FontAwesomeIcon icon={faHouse} style={{ color: "#000000" }} />
                    <h1 className="text-normal font-base">
-                        Sect. No.28, Near Ganga Nagar Bus Stop, Nigdi - Pradhikaran. Pune, 411 044.
+                   CHURDI, TIRORA-441911
+                   DIST :- GONDIA
                    </h1>
                </div>
                <div className='mt-3 flex items-center gap-4'>
                    <FontAwesomeIcon icon={faPhone} />
                    <h1 className="text-normal font-base">
-                   (020) 2765 9945
+                   07198-202159
                    </h1>
                </div>
                <div className='mt-3 flex items-center gap-4'>
                    <FontAwesomeIcon icon={faEnvelope} />
                    <h1 className="text-normal font-base">
-                   xyz@gmail.com
+                   asimsarafcentralacademy@gmail.com
                    </h1>
                </div>
             </div>
         </div>
       </div>
       <div className='bg-zinc-800 flex flex-col md:flex-row md:space-x-[500px] h-auto md:h-16 w-full p-5'>
-        <div className='text-center md:text-left md:ml-24 text-white font-semibold mb-2 md:mb-0'>
-           Designed by KAT Software Labs
-        </div>
+      <div className='text-center md:text-left md:ml-10 text-white font-semibold mb-2 md:mb-0'>
+    Designed by  <a href="#" target="_blank" rel="noopener noreferrer">KAT Software Labs</a> and <a href="https://www.spotlightfreelance.me/" target="_blank" rel="noopener noreferrer">Spotlight Freelance</a> 
+</div>
         <div className='text-center md:text-left text-zinc-500'>
-            Copyright © 2025 New Pune Public School. All Rights Reserve
+            Copyright © 2025 ASIM SARAF CENTRAL ACADEMY. All Rights Reserve
         </div>
       </div>
     </div>

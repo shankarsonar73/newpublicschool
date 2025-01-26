@@ -1,4 +1,5 @@
 import React,{useState,useEffect} from "react";
+import Logo from "/ASCA.png";
 
 const Navbar2 = () => {
     const [isVisible, setIsVisible] = useState(true); 
@@ -18,17 +19,18 @@ const Navbar2 = () => {
         {/* Left Section */}
         <div className=" flex items-center space-x-4 w-full lg:w-auto">
           <img
-            src="https://img.freepik.com/free-vector/gradient-high-school-logo-design_23-2149626932.jpg?semt=ais_incoming"
+            src={Logo}
+            // src="https://img.freepik.com/free-vector/gradient-high-school-logo-design_23-2149626932.jpg?semt=ais_incoming"
             alt="School Logo"
             className="h-16 w-16"
           />
           <div>
-            <h1 className="text-xs text-gray-600">Degaon post-linga Washim </h1>
+            <h1 className="text-xs text-gray-600"> Co-educational institution set up at TIRORA </h1>
             <h1 className="text-green-800 font-bold leading-tight text-2xl">
-              NEW PUNE PUBLIC SCHOOL
+            Asim Saraf Central Academy, Tumsar
             </h1>
             <p className="text-xs text-gray-600">
-              C.B.S.E. Affiliation No.: 1130352 | UDISE No.: 27252002415
+            Affiliated to CBSE, Delhi, Affiliation no.1130545.
             </p>
           </div>
         </div>

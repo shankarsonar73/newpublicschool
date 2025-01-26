@@ -111,7 +111,7 @@ const MobileNavigation = () => {
     <div className="md:hidden">
       <div className="flex items-center justify-between py-4 px-4 border-b">
         <a href="#" className="text-green-800 font-bold text-xl">
-          Logo
+          
         </a>
         <button
           onClick={() => setIsOpen(!isOpen)}
